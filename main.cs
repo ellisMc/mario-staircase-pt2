@@ -4,7 +4,7 @@ class Program {
   public static void Main (string[] args) {
     string steps = "#";
     string space = " ";
-    Console.Write("Height: ");
+    Console.Write("Height:  ");
     int height = get_rows();
     Console.WriteLine(height);
     for(int i = 1; i <= height; i++){
